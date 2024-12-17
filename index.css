@@ -1,0 +1,214 @@
+body {
+        height: 100vh;
+        background-image: linear-gradient(to right,  #5e3403, #573f0d,  #261502)
+    }
+.container{
+    width: 50%;
+    height: 400px;
+    background-color:  #281806;
+    margin: 0 auto;
+    margin-top: 10%;
+    display: flex;
+    
+}
+    .container .left{
+        float: left;
+        width: 50%;
+        height: 400px;
+        background: url(https://media.istockphoto.com/id/183571452/photo/preparing-for-christmas-eve-at-beautifully-decorated-table.jpg?s=612x612&w=0&k=20&c=Q2Y-8r6ApmvVQ2RID8zquUroLmT3OFPYxtGYwIoXlOQ=);
+        background-size: cover;
+        background-position: center;
+    }
+   .container .right{
+        float: right;
+        width: 50%;
+        height: 400px;
+    }
+    .tiitr{
+        text-align: center;
+        color: aliceblue;
+    }
+    .pp{
+        color: rgb(140, 100, 48);
+        position: relative;
+        left: 11%;
+        
+    }
+    .rt input[type="text"]
+    { border: none;
+        outline: none;
+        background-color:  #261502;
+        border-bottom: 1px solid white;
+        width: 94%;
+        color: aliceblue;
+    }
+    .rt{
+        margin: 2rem;
+        line-height: 55px;
+        margin-top: -22px;   
+    }
+    .op{
+        color: aliceblue;
+    }
+    .cercle-buton{
+        width: 25PX;
+        height: 25PX;
+        border-radius: 50%;
+        background-color: aliceblue;
+        color: #291901;
+        border: none;
+        font-size: 16PX;
+        font-weight: bold;
+        position: relative;
+        left: 8%;
+    }
+    .cercle-butonn{
+        display: flex;
+        width: 70PX;
+        height: 30PX;
+        border-radius: 30px;
+        background-color: bisque;
+        color: #291901;
+        border: none;
+        position: relative;
+        left: 30%;
+        margin: -30px;
+        justify-content: flex-end;
+        align-items: center;
+        font-size: 10px;
+        font-weight: bold;
+        
+
+    }
+    .betwin{
+        width: 25PX;
+        height: 25PX;
+        border-radius: 50%;
+        background-color: rgb(43, 30, 1);
+        color: #fefcf9;
+        border: none;
+        font-size: 16PX;
+        font-weight: bold;
+        position: relative;
+        left: 21%;
+        margin-top: 2px;
+
+    }
+    .plk{
+        /* color: rgb(40, 29, 5); */
+        
+    }
+  .cer{
+    width: 25PX;
+        height: 25PX;
+        border-radius: 50%;
+        background-color: aliceblue;
+        color: #291901;
+        border: none;
+        font-size: 16PX;
+        font-weight: bold;
+        position: relative;
+        left: 40%;
+    
+
+  }
+  .cle{
+    width: 25PX;
+        height: 25PX;
+        border-radius: 50%;
+        background-color: aliceblue;
+        color: #291901;
+        border: none;
+        font-size: 16PX;
+        font-weight: bold;
+        position: relative;
+        left: 45%;
+
+  }
+.BUT{
+    width: 25PX;
+        height: 25PX;
+        border-radius: 50%;
+        background-color: aliceblue;
+        color: #291901;
+        border: none;
+        font-size: 16PX;
+        font-weight: bold;
+        position: relative;
+        left: 50%;
+        text-align: center;
+
+}
+.container2{
+    display: flex;
+    width: 60px;
+    height: 25px;
+    background-color:bisque;
+    color: #291901;
+    font-size: 10px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+    position: relative;
+    left: 10%;
+    }
+    .booking{
+        color: bisque;
+        font-size: 10px;
+        position: relative;
+        left: 35%;
+        top: -25px;
+    }
+    @media only  screen and (max-width: 768px) {
+        body{
+            /* background: red; */
+        }
+        
+        .container{
+            display: flex;
+             flex-direction: column;
+             width: 100%;
+             height: 100%;
+        }
+        .container .left{
+            width: 100%;
+        }
+        .left{
+            width: 100%;
+        }
+        .right{
+            width: 100%;
+        }
+       /* .bnt{ */
+        /* gap: 10px; */
+        /* background-color: ; */
+
+        .container .right{
+            
+            width: 100%;
+            
+        }
+        .betwin{
+            width: 25PX;
+            height: 25PX;
+            border-radius: 50%;
+            background-color: rgb(43, 30, 1);
+            color: #fefcf9;
+            border: none;
+            font-size: 16PX;
+            font-weight: bold;
+            position: relative;
+            left: 23%;
+            margin-top: 2px;
+    
+       }
+     
+    
+     
+    
+
+
+    
+
+
+    
